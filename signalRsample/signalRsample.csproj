@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-signalRsample-1e2f90b6-9963-45a8-9d8a-5ad49bc3ba92</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\microsoft\signalr\dist\browser\" />
+  </ItemGroup>
+
+</Project>
